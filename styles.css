@@ -1,0 +1,132 @@
+.price-tables {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 1000px;
+  background-color: #141b1c;
+}
+
+.price-card {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 380px;
+  height: 770px;
+  background: #334247;
+  margin-left: 18px;
+}
+.price-card__title {
+  margin-top: 30px;
+  text-align: center;
+}
+.price-card__title h2 {
+  margin: 0;
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 700;
+}
+.price-card__title p {
+  margin: 0;
+  font-size: 20px;
+  line-height: 24px;
+}
+.price-card__description {
+  margin-top: 39px;
+  width: 327px;
+  height: 36px;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 300;
+  text-align: center;
+}
+.price-card__options-list {
+  margin: 0;
+  padding: 0;
+  margin-top: 42px;
+  width: 100%;
+  list-style-type: none;
+}
+.price-card__options-list li {
+  display: flex;
+  width: 100%;
+  height: 50px;
+}
+.price-card__options-list li:nth-child(odd) {
+  background-color: #2A343880;
+}
+.price-card__options-list span {
+  display: inline-block;
+  height: 100%;
+  line-height: 50px;
+  font-size: 15px;
+  font-weight: 300;
+}
+.price-card__options-list img {
+  margin: 19px 21px 18px 22px;
+  width: 15px;
+  height: 13px;
+}
+.price-card__order-btn {
+  padding: 0;
+  margin-top: 37px;
+  width: 154px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #5bb189;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.price-value {
+  width: 100%;
+  height: 104px;
+  margin-top: 36px;
+  text-align: center;
+  line-height: 104px;
+  background-color: #5bb189;
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.business {
+  background-color: #3a6ba5;
+}
+
+.webstore {
+  background-color: #EC632A;
+}
+
+.badge {
+  position: absolute;
+  width: 147px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  background-color: #DC3F45;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transform: rotate(45deg);
+  margin-left: 147px;
+  margin-top: 31px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+/*# sourceMappingURL=styles.css.map */

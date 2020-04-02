@@ -1,0 +1,130 @@
+@import "variables.scss";
+
+.price-tables {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: $unit * 144;
+  height: $unit * 100;
+  background-color: $background;
+}
+
+.price-card {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: $unit * 38;
+  height: $unit * 77;
+  background: $background-card;
+  margin-left: $unit * 1.8;
+
+  &__title {
+    margin-top: $unit * 3;
+    text-align: center;
+    h2 {
+      margin: 0;
+      font-size: $unit * 3.5;
+      line-height: $unit * 4.3;
+      font-weight: 700;
+    }
+    p {
+      margin: 0;
+      font-size: $unit * 2;
+      line-height: $unit * 2.4;
+    }
+  }
+
+  &__description {
+    margin-top: $unit * 3.9;
+    width: $unit * 32.7;
+    height: $unit * 3.6;
+    font-size: $unit * 1.5;
+    line-height: $unit * 1.8;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  &__options-list {
+    margin: 0;
+    padding: 0;
+    margin-top: $unit * 4.2;
+    width: 100%;
+    list-style-type: none;
+
+    li {
+      display: flex;
+      width: 100%;
+      height: $unit * 5;
+    }
+
+    li:nth-child(odd) {
+      background-color: $background-li-odd;
+    }
+
+    span {
+      display: inline-block;
+      height: 100%;
+      line-height: $unit * 5;
+      font-size: $unit * 1.5;
+      font-weight: 300;
+    }
+
+    img {
+      margin: $unit * 1.9 $unit * 2.1 $unit * 1.8 $unit * 2.2;
+      width: $unit * 1.5;
+      height: $unit * 1.3;
+    }
+  }
+
+  &__order-btn {
+    padding: 0;
+    margin-top: $unit * 3.7;
+    width: $unit * 15.4;
+    height: $unit * 4;
+    border-radius: $unit * 2;
+    background-color: $background-basic;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+    font-size: $unit * 1.4;
+    text-transform: uppercase;
+    color: $color-main;
+  }
+}
+
+.price-value {
+  width: 100%;
+  height: $unit * 10.4;
+  margin-top: $unit * 3.6;
+  text-align: center;
+  line-height: $unit * 10.4;
+  background-color: $background-basic;
+  font-size: $unit * 5.5;
+  font-weight: 700;
+}
+
+.business {
+  background-color: $background-business;
+}
+
+.webstore {
+  background-color: $background-webshop;
+}
+
+.badge {
+  position: absolute;
+  width: $unit * 14.7;
+  height: $unit * 2.5;
+  line-height: $unit * 2.5;
+  text-align: center;
+  background-color: $background-badge;
+  font-size: $unit * 1.4;
+  font-weight: 700;
+  text-transform: uppercase;
+  transform: rotate(45deg);
+  margin-left: $unit * 14.7;
+  margin-top: $unit * 3.1;
+}
