@@ -46,6 +46,17 @@
     text-align: center;
   }
 
+  &__price {
+    width: 100%;
+    height: $unit * 10.4;
+    margin-top: $unit * 3.6;
+    text-align: center;
+    line-height: $unit * 10.4;
+    background-color: $background-basic;
+    font-size: $unit * 5.5;
+    font-weight: 700;
+  }
+
   &__options-list {
     margin: 0;
     padding: 0;
@@ -95,22 +106,11 @@
   }
 }
 
-.price-value {
-  width: 100%;
-  height: $unit * 10.4;
-  margin-top: $unit * 3.6;
-  text-align: center;
-  line-height: $unit * 10.4;
-  background-color: $background-basic;
-  font-size: $unit * 5.5;
-  font-weight: 700;
-}
-
 .business {
   background-color: $background-business;
 }
 
-.webstore {
+.webshop {
   background-color: $background-webshop;
 }
 
