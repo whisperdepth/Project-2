@@ -81,8 +81,8 @@
 }
 .price-card__order-btn {
   padding: 0;
-  margin-top: 37px;
-  width: 154px;
+  margin-top: 35px;
+  width: 155px;
   height: 40px;
   border-radius: 20px;
   background-color: #5bb189;
@@ -90,7 +90,7 @@
   outline: none;
   cursor: pointer;
   font-family: Montserrat, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   text-transform: uppercase;
   color: #fff;
 }
@@ -105,17 +105,17 @@
 
 .badge {
   position: absolute;
-  width: 147px;
+  width: 145px;
   height: 25px;
   line-height: 25px;
   text-align: center;
   background-color: #DC3F45;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
   transform: rotate(45deg);
-  margin-left: 147px;
-  margin-top: 31px;
+  margin-left: 295px;
+  margin-top: 30px;
 }
 
 * {

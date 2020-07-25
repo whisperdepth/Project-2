@@ -91,8 +91,8 @@
 
   &__order-btn {
     padding: 0;
-    margin-top: $unit * 3.7;
-    width: $unit * 15.4;
+    margin-top: $unit * 3.5;
+    width: $unit * 15.5;
     height: $unit * 4;
     border-radius: $unit * 2;
     background-color: $background-basic;
@@ -100,7 +100,7 @@
     outline: none;
     cursor: pointer;
     font-family: Montserrat, sans-serif;
-    font-size: $unit * 1.4;
+    font-size: $unit * 1.5;
     text-transform: uppercase;
     color: $color-main;
   }
@@ -116,15 +116,15 @@
 
 .badge {
   position: absolute;
-  width: $unit * 14.7;
+  width: $unit * 14.5;
   height: $unit * 2.5;
   line-height: $unit * 2.5;
   text-align: center;
   background-color: $background-badge;
-  font-size: $unit * 1.4;
+  font-size: $unit * 1.5;
   font-weight: 700;
   text-transform: uppercase;
   transform: rotate(45deg);
-  margin-left: $unit * 14.7;
-  margin-top: $unit * 3.1;
+  margin-left: $unit * 29.5;
+  margin-top: $unit * 3;
 }
